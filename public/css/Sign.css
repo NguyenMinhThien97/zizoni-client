@@ -1,0 +1,74 @@
+#particles{
+    background-color: black;
+  }
+  #loginbox {
+      margin-top: 10px;
+  }
+  
+  #loginbox > div:first-child {        
+      padding-bottom: 10px;    
+  }
+  
+  .iconmelon {
+      display: block;
+      margin: auto;
+  }
+  
+  #form > div {
+      margin-bottom: 25px;
+  }
+  
+  #form > div:last-child {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .panel-body {
+      padding-top: 30px;
+      background-color: rgba(2555,255,255,.3);
+  }
+  
+  #particles {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      top: 0;                        
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      z-index: -2;
+  }
+  
+  .iconmelon,
+  .im {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: block;
+    fill: #525151;
+  }
+  
+  .iconmelon:after,
+  .im:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .form-control{
+    border:rgb(204, 204, 204) solid 1px !important;
+    margin-bottom: 10px;
+  }
+  .card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+  }
+  .row{
+      margin-top: 5px;
+  }
+  legend{
+      text-align: center;
+  }
